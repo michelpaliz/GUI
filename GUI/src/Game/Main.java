@@ -18,6 +18,8 @@ public class Main {
         window.add(gamePanel);
         window.pack();
 
+        //Second video
+        gamePanel.startGameThread();
     }
 
 }
